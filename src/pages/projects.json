@@ -1,0 +1,37 @@
+[
+    {
+        "title":"Code refactor",
+        "github":"hhttps://github.com/VentSaulCS/Div-Out-Semantic-In",
+        "live":"https://ventsaulcs.github.io/Div-Out-Semantic-In/",
+        "screenshot":"/images/coderefactor.png",
+        "description":"HTML semantic tags and CSS refactor"
+    },
+    {
+        "title":"CPassword",
+        "github":"https://github.com/VentSaulCS/CodeGenerator",
+        "live":"https://ventsaulcs.github.io/CodeGenerator/",
+        "screenshot":"/images/corerefactor.jpeg",
+        "description":"HTML semantic tags and CSS refactor"
+    },
+    {
+        "title":"Code refactor",
+        "github":"https://github.com/VentSaulCS/CodeGenerator",
+        "live":"https://ventsaulcs.github.io/CodeGenerator/",
+        "screenshot":"/images/corerefactor.jpeg",
+        "description":"HTML semantic tags and CSS refactor"
+    },
+    {
+        "title":"Code refactor",
+        "github":"https://github.com/VentSaulCS/CodeGenerator",
+        "live":"https://ventsaulcs.github.io/CodeGenerator/",
+        "screenshot":"/images/corerefactor.jpeg",
+        "description":"HTML semantic tags and CSS refactor"
+    },
+    {
+        "title":"Code refactor",
+        "github":"https://github.com/VentSaulCS/CodeGenerator",
+        "live":"https://ventsaulcs.github.io/CodeGenerator/",
+        "screenshot":"/images/corerefactor.jpeg",
+        "description":"HTML semantic tags and CSS refactor"
+    }
+]
