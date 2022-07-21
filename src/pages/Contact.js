@@ -1,8 +1,8 @@
 import React from "react";
 
-const AboutMe = () => {
+const Contact = () => {
     return(<main className="container text-center border border-primary">
-        <h2 className="sectionheading">About Me</h2>
+        <h2 className="sectionheading">Contact</h2>
     
     </main>)
 }

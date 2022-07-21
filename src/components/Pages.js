@@ -3,7 +3,6 @@ import PortfolioHeader from './PortfolioHeader';
 import AboutMe from '../pages/AboutMe';
 import Contact from '../pages/Contact';
 import Portfolio from '../pages/Portfolio';
-import Contact from '../pages/Contact';
 import Resume from "../pages/Resume";
 
 const Pages = () => {
@@ -24,7 +23,7 @@ const Pages = () => {
     };
     const handlePageChange = (page) => setCurrentPage(page);
     return (<main className="container text-center border border-primary">
-        <h2 className="sectionheading">Pages</h2>
+      
         <PortfolioHeader currentPage={currentPage} handlePageChange={handlePageChange} />
         {/* Here we are calling the renderPage method which will return a component  */}
         {renderPage()}

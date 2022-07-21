@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-function PortfolioHeader() {
+function PortfolioHeader({ currentPage, handlePageChange }) {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
@@ -11,16 +11,21 @@ function PortfolioHeader() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">About Me</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Contact</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+            <Nav.Link 
+                href="#about"
+                onClick={() => handlePageChange('AboutMe')}>
+              About Me
+              </Nav.Link>
+            {/* <Nav.Link href="#link">Link</Nav.Link> */}
+            <NavDropdown title="Explore My Profile" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#contact"
+                 onClick={() => handlePageChange('Contact')}>Contact</NavDropdown.Item>
+              <NavDropdown.Item href="#Portfolio" onClick={() => handlePageChange('Portfolio')}>
                 Portfolio
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Resume</NavDropdown.Item>
+              <NavDropdown.Item href="#Resume" onClick={() => handlePageChange('Resume')}>Resume</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
+              <NavDropdown.Item href="#Work" onClick={() => handlePageChange('Work')}>
                 Work
               </NavDropdown.Item>
             </NavDropdown>
@@ -32,3 +37,4 @@ function PortfolioHeader() {
 }
 
 export default PortfolioHeader;
+
