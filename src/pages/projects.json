@@ -7,31 +7,32 @@
         "description":"HTML semantic tags and CSS refactor"
     },
     {
-        "title":"CPassword",
-        "github":"https://github.com/VentSaulCS/CodeGenerator",
-        "live":"https://ventsaulcs.github.io/CodeGenerator/",
-        "screenshot":"/images/corerefactor.jpeg",
-        "description":"HTML semantic tags and CSS refactor"
+        "title":"Daily Planner",
+        "github":"https://github.com/VentSaulCS/DailyPlanner.git",
+        "live":"https://ventsaulcs.github.io/DailyPlanner/",
+        "screenshot":"/images/DailyPlanner.png",
+        "description":"Daily Planner "
     },
     {
-        "title":"Code refactor",
-        "github":"https://github.com/VentSaulCS/CodeGenerator",
-        "live":"https://ventsaulcs.github.io/CodeGenerator/",
-        "screenshot":"/images/corerefactor.jpeg",
-        "description":"HTML semantic tags and CSS refactor"
+        "title":"Code Quiz",
+        "github":"https://github.com/VentSaulCS/CodeQuiz.git",
+        "live":"https://ventsaulcs.github.io/CodeQuiz/",
+        "screenshot":"/images/CodeQuiz.png",
+        "description":"Start the Quiz!"
     },
     {
-        "title":"Code refactor",
-        "github":"https://github.com/VentSaulCS/CodeGenerator",
+        "title":"Weather App",
+        "github":"https://github.com/VentSaulCS/weatherApp.git",
         "live":"https://ventsaulcs.github.io/CodeGenerator/",
-        "screenshot":"/images/corerefactor.jpeg",
-        "description":"HTML semantic tags and CSS refactor"
+        "screenshot":"/images/WeatherApp.png",
+        "description":"Check the next forcast in your area"
     },
     {
-        "title":"Code refactor",
+        "title":"Code Generator",
         "github":"https://github.com/VentSaulCS/CodeGenerator",
         "live":"https://ventsaulcs.github.io/CodeGenerator/",
-        "screenshot":"/images/corerefactor.jpeg",
-        "description":"HTML semantic tags and CSS refactor"
+        "screenshot":"/images/CodeGenerator.png",
+        "description":"Generate a random password"
     }
 ]
+
